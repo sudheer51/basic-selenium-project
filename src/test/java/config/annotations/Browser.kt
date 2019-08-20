@@ -13,3 +13,4 @@ annotation class Browser(
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
 annotation class Screenshot
+Adding the documentation
