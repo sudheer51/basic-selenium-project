@@ -67,7 +67,7 @@ This will increase the possibility to write easily readable and flexible tests.
 ##### @Browser
 Overwrite used (default) browser by annotating test classes or test methods with:
 
-    @Browser(use = FIREFOX)
+    @Browser(use = FIREFOX)  
     
 This will always execute the annotated tests with the selected browser, no matter what has been set as default browser. 
 See the full list of possible [parameter values](https://github.com/christian-draeger/basic-selenium-project/blob/8d6d025ec895d831e76b9013c1648307edf0756f/src/test/java/config/driver/DriverFactory.kt#L115).
